@@ -209,10 +209,29 @@ for(let u = 0; u < 10; u++){
 if(u * 2 > 10){
 console.log(`Maior que 10! ${u}`)
 } else {
- if(u / 2 === 0){
+if(u / 2 === 0){
 console.log('deu 0')
 }
 }
 }
 
 // obtemos o mesmo resultado, porém o código fica bagunçado!
+
+// break
+
+for(let g = 20; g > 10; g--){
+    console.log(`O valor de g é: ${g}`)
+
+    if(g === 15){
+        console.log('o g é 15!')
+        break
+    }
+}
+
+for( let h = 0; h < 26; h++ ) {
+    console.log(`O valor de h é: ${h}`)
+    if(h === 13) {
+        console.log('O valro é 13!')
+        break
+    }
+}
