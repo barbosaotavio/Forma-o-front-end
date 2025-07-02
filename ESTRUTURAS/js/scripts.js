@@ -140,8 +140,8 @@ if(userName === 'Carlos'){
     console.log(`Bem vindo ${userName}`)
 }
 else if(userName === 'Otavio' && userAge === 29){
-    console.log(`Olá ${userName} sua idade é ${userAge}`)
+    console.log(`Olá ${userName} sua idade é ${userAge} anos`)
 } else{
     console.log('Nenhuma condição aceita!')
 }
-const name = 'Alice'
+
