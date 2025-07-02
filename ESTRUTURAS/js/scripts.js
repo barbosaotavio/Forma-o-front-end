@@ -1,22 +1,22 @@
 // Variáveis 
-let nome ='Otavio'
-console.log(nome)
+// let nome ='Otavio'
+// console.log(nome)
 
 // Com a palavra 'let' podemos alterar o valor da variavel.
 
-nome = 'Otavio Barbosa'
-console.log(nome)
+// nome = 'Otavio Barbosa'
+// console.log(nome)
 
-const idade = 29
-console.log(idade)
+// const idade = 29
+// console.log(idade)
 
 // Com a plavra 'const' o valor da variavel não pode ser alterada.
 
 // idade = 35
 // console.log(idade)
 
-console.log(typeof nome)
-console.log(typeof idade)
+// console.log(typeof nome)
+// console.log(typeof idade)
 
 // Mais sobre variáveis 
 
@@ -60,88 +60,109 @@ console.log(typeof idade)
 
 // if 
 
-const m = 10
+// const m = 10
 
-if(m > 5){
-    console.log('m é maior que 5!')
-}
+// if(m > 5){
+//     console.log('m é maior que 5!')
+// }
 
-const user = 'João'
+// const user = 'João'
 
-if(user === 'João') {
-    console.log(`Olá ${user}`)
-}
+// if(user === 'João') {
+//     console.log(`Olá ${user}`)
+// }
 
-if( user === 'Maria'){
-    console.log(`Olá ${user}`) 
-}
+// if( user === 'Maria'){
+//     console.log(`Olá ${user}`) 
+// }
 
-console.log(user === 'João', user === 'Maria')
+// console.log(user === 'João', user === 'Maria')
 
 
 // else
 
-const loggedIn = false
+// const loggedIn = false
 
-if(loggedIn){
-    console.log('Está autenticado!')
-} else{
-    console.log('Não está autenticado!')
-}
+// if(loggedIn){
+//     console.log('Está autenticado!')
+// } else{
+//     console.log('Não está autenticado!')
+// }
 
-const q = 10
-const w = 25
+// const q = 10
+// const w = 25
 
-if(q > 5 && w > 20){
-    console.log('Números são mais altos!')
-} else{
-    console.log('Os números não são mais altos!')
-}
+// if(q > 5 && w > 20){
+//     console.log('Números são mais altos!')
+// } else{
+//     console.log('Os números não são mais altos!')
+// }
 
-const cabelo = 'preto'
+// const cabelo = 'preto'
 
 
-if(cabelo === 'preto'){
-    console.log('Seu cabelo é preto!')
-} else {
-    console.log('Seu cabelo não é preto !')
-}
+// if(cabelo === 'preto'){
+//     console.log('Seu cabelo é preto!')
+// } else {
+//     console.log('Seu cabelo não é preto !')
+// }
 
-const pais = 'Brasil'
+// const pais = 'Brasil'
 
-if(pais === 'Argentina'){
-    console.log('Você é Brasileiro!')
-} else{
-    console.log('Você é estrangeiro!')
-}
+// if(pais === 'Argentina'){
+//     console.log('Você é Brasileiro!')
+// } else{
+//     console.log('Você é estrangeiro!')
+// }
 
-const camisa = 'M'
+// const camisa = 'M'
 
-if(camisa == 'M'){
-    console.log('Sua camisa é M')
-} else{
-    console.log('Sua camisa não é M')   
-}
+// if(camisa == 'M'){
+//     console.log('Sua camisa é M')
+// } else{
+//     console.log('Sua camisa não é M')   
+// }
 
 // else if 
 
-if(1 > 2){
-    console.log('Teste')
-} else if(2 > 3){
-    console.log('Teste 2')
-} else if(5 > 2){
-    console.log('Agora sim')
+// if(1 > 2){
+//     console.log('Teste')
+// } else if(2 > 3){
+//     console.log('Teste 2')
+// } else if(5 > 2){
+//     console.log('Agora sim')
+// }
+
+// const userName = 'Otavio'
+// const userAge = 29
+
+// if(userName === 'Carlos'){
+//     console.log(`Bem vindo ${userName}`)
+// }
+// else if(userName === 'Otavio' && userAge === 29){
+//     console.log(`Olá ${userName} sua idade é ${userAge} anos`)
+// } else{
+//     console.log('Nenhuma condição aceita!')
+// }
+
+// while
+
+let p = 0
+while(p < 5){
+    console.log(`repetindo ${p}`)
+    p = p + 1
 }
 
-const userName = 'Otavio'
-const userAge = 29
+// loop infinito 
 
-if(userName === 'Carlos'){
-    console.log(`Bem vindo ${userName}`)
-}
-else if(userName === 'Otavio' && userAge === 29){
-    console.log(`Olá ${userName} sua idade é ${userAge} anos`)
-} else{
-    console.log('Nenhuma condição aceita!')
-}
 
+// let x = 10
+// while(x > 5){
+//     console.log(`Imprimindo ${x}`)
+// }
+
+let a = 0
+while(a <= 30){
+    console.log(`teste ${a}`)
+    a = a +2
+}
