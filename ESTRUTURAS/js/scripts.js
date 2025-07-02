@@ -178,15 +178,41 @@
 
 // for 
 
-for( let t = 0; t < 10; t++){
-    console.log('Repetindo algo...')
+// for( let t = 0; t < 10; t++){
+//     console.log('Repetindo algo...')
+// }
+
+// let r = 10 
+// for(r; r > 0; r = r -1){
+//     console.log(`O r está diminuindo: ${r}`)
+// }
+
+// for( let t = 0; t < 10; t++){
+//     console.log(`Repetindo algo ${t}`)
+// }
+
+// Identação
+
+// com identação
+for(let u = 0; u < 10; u++){
+    if(u * 2 > 10){
+        console.log(`Maior que 10! ${u}`)
+    } else {
+        if(u / 2 === 0){
+            console.log('deu 0')
+        }
+    }
 }
 
-let r = 10 
-for(r; r > 0; r = r -1){
-    console.log(`O r está diminuindo: ${r}`)
+// sem identação
+for(let u = 0; u < 10; u++){
+if(u * 2 > 10){
+console.log(`Maior que 10! ${u}`)
+} else {
+ if(u / 2 === 0){
+console.log('deu 0')
+}
+}
 }
 
-for( let t = 0; t < 10; t++){
-    console.log(`Repetindo algo ${t}`)
-}
+// obtemos o mesmo resultado, porém o código fica bagunçado!
