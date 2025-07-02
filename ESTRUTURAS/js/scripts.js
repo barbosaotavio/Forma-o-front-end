@@ -147,11 +147,11 @@
 
 // while
 
-let p = 0
-while(p < 5){
-    console.log(`repetindo ${p}`)
-    p = p + 1
-}
+ let p = 0
+ while(p < 5){
+   console.log(`repetindo ${p}`)
+     p++
+ }
 
 // loop infinito 
 
@@ -161,8 +161,16 @@ while(p < 5){
 //     console.log(`Imprimindo ${x}`)
 // }
 
-let a = 0
-while(a <= 30){
-    console.log(`teste ${a}`)
-    a = a +2
-}
+// let a = 0
+// while(a <= 30){
+//     console.log(`teste ${a}`)
+//     a = a +2
+// }
+
+// do while 
+
+let o = 10
+do {
+    console.log(`valor de o: ${o}`)
+    o--
+} while(o > 1)
