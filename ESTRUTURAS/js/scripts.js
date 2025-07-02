@@ -144,3 +144,4 @@ else if(userName === 'Otavio' && userAge === 29){
 } else{
     console.log('Nenhuma condição aceita!')
 }
+const name = 'Alice'
