@@ -235,3 +235,51 @@ for( let h = 0; h < 26; h++ ) {
         break
     }
 }
+
+// continue 
+
+for(let s = 1; s < 10; s++){
+    // operador resto da divisão %
+    if(s % 2 === 0){
+        console.log('Número par!')
+        continue
+    }
+    console.log(s)
+}
+
+// switch
+
+const job = 'advogado'
+
+switch(job){
+    case 'programador':
+        console.log('Você é um programador!')    
+        break
+    case 'advogado':
+        console.log('Você é um advogado!')
+        break
+    case 'engenheiro':
+        console.log('Você é um engenheiro!')    
+        break
+    default:
+        console.log('Nenhuma profissão encontrada!')    
+
+}
+
+// switch 'errado'
+
+const l = 100 
+
+switch(l){
+    case 200:
+        console.log('l é 200')
+    case 100:
+        console.log('l é 100')
+    case 10:
+        console.log('l é 10')
+    default:
+        console.log('l não foi encontrado')    
+
+
+
+}
