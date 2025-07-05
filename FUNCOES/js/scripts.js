@@ -35,3 +35,15 @@ const resultado = soma(a, b)
 console.log(resultado)
 
 console.log(soma(c, d))
+
+
+const f = 42
+const g = 22
+
+function somar(n1, n2){
+    return n1 + n2 
+}
+
+console.log(somar(f, g))
+
+
